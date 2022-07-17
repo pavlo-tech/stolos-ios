@@ -7,64 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3E25C9A1285E42D900BEEACF /* stolosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E25C9A0285E42D900BEEACF /* stolosApp.swift */; };
-		3E25C9A3285E42D900BEEACF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E25C9A2285E42D900BEEACF /* ContentView.swift */; };
-		3E25C9A5285E42E300BEEACF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E25C9A4285E42E300BEEACF /* Assets.xcassets */; };
-		3E25C9A8285E42E300BEEACF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E25C9A7285E42E300BEEACF /* Preview Assets.xcassets */; };
-		3E25C9B3285E42E400BEEACF /* stolosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E25C9B2285E42E400BEEACF /* stolosTests.swift */; };
-		3E25C9BE285E42E400BEEACF /* stolosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E25C9BD285E42E400BEEACF /* stolosUITests.swift */; };
-		3E25C9CF285E466400BEEACF /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E25C9CE285E466400BEEACF /* MapView.swift */; };
+		3EDAFEC1288482B200EE78FC /* stolosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDAFEC0288482B200EE78FC /* stolosApp.swift */; };
+		3EDAFEC3288482B200EE78FC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDAFEC2288482B200EE78FC /* ContentView.swift */; };
+		3EDAFEC5288482BB00EE78FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EDAFEC4288482BB00EE78FC /* Assets.xcassets */; };
+		3EDAFEC8288482BB00EE78FC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EDAFEC7288482BB00EE78FC /* Preview Assets.xcassets */; };
+		3EDAFED3288482BB00EE78FC /* stolosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDAFED2288482BB00EE78FC /* stolosTests.swift */; };
+		3EDAFEDE288482BB00EE78FC /* stolosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDAFEDD288482BB00EE78FC /* stolosUITests.swift */; };
+		3EDAFEEF288482F900EE78FC /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDAFEEE288482F900EE78FC /* MapView.swift */; };
+		3EDAFEF42884830100EE78FC /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDAFEF32884830100EE78FC /* MapViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3E25C9AF285E42E400BEEACF /* PBXContainerItemProxy */ = {
+		3EDAFECF288482BB00EE78FC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 3E25C995285E42D800BEEACF /* Project object */;
+			containerPortal = 3EDAFEB5288482B200EE78FC /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3E25C99C285E42D900BEEACF;
+			remoteGlobalIDString = 3EDAFEBC288482B200EE78FC;
 			remoteInfo = stolos;
 		};
-		3E25C9BA285E42E400BEEACF /* PBXContainerItemProxy */ = {
+		3EDAFEDA288482BB00EE78FC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 3E25C995285E42D800BEEACF /* Project object */;
+			containerPortal = 3EDAFEB5288482B200EE78FC /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3E25C99C285E42D900BEEACF;
+			remoteGlobalIDString = 3EDAFEBC288482B200EE78FC;
 			remoteInfo = stolos;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3E25C99D285E42D900BEEACF /* stolos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stolos.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3E25C9A0285E42D900BEEACF /* stolosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stolosApp.swift; sourceTree = "<group>"; };
-		3E25C9A2285E42D900BEEACF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		3E25C9A4285E42E300BEEACF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3E25C9A7285E42E300BEEACF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		3E25C9A9285E42E300BEEACF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3E25C9AE285E42E400BEEACF /* stolosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stolosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3E25C9B2285E42E400BEEACF /* stolosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stolosTests.swift; sourceTree = "<group>"; };
-		3E25C9B4285E42E400BEEACF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3E25C9B9285E42E400BEEACF /* stolosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stolosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3E25C9BD285E42E400BEEACF /* stolosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stolosUITests.swift; sourceTree = "<group>"; };
-		3E25C9BF285E42E400BEEACF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3E25C9CE285E466400BEEACF /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		3EDAFEBD288482B200EE78FC /* stolos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stolos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EDAFEC0288482B200EE78FC /* stolosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stolosApp.swift; sourceTree = "<group>"; };
+		3EDAFEC2288482B200EE78FC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3EDAFEC4288482BB00EE78FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3EDAFEC7288482BB00EE78FC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3EDAFEC9288482BB00EE78FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EDAFECE288482BB00EE78FC /* stolosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stolosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EDAFED2288482BB00EE78FC /* stolosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stolosTests.swift; sourceTree = "<group>"; };
+		3EDAFED4288482BB00EE78FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EDAFED9288482BB00EE78FC /* stolosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stolosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EDAFEDD288482BB00EE78FC /* stolosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stolosUITests.swift; sourceTree = "<group>"; };
+		3EDAFEDF288482BB00EE78FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EDAFEEE288482F900EE78FC /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapView.swift; path = ../../stolos_files/stolos/MapView.swift; sourceTree = "<group>"; };
+		3EDAFEF32884830100EE78FC /* MapViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapViewModel.swift; path = ../../stolos_files/stolos/MapViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3E25C99A285E42D900BEEACF /* Frameworks */ = {
+		3EDAFEBA288482B200EE78FC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3E25C9AB285E42E400BEEACF /* Frameworks */ = {
+		3EDAFECB288482BB00EE78FC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3E25C9B6285E42E400BEEACF /* Frameworks */ = {
+		3EDAFED6288482BB00EE78FC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -74,61 +76,62 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3E25C994285E42D800BEEACF = {
+		3EDAFEB4288482B200EE78FC = {
 			isa = PBXGroup;
 			children = (
-				3E25C99F285E42D900BEEACF /* stolos */,
-				3E25C9B1285E42E400BEEACF /* stolosTests */,
-				3E25C9BC285E42E400BEEACF /* stolosUITests */,
-				3E25C99E285E42D900BEEACF /* Products */,
+				3EDAFEBF288482B200EE78FC /* stolos */,
+				3EDAFED1288482BB00EE78FC /* stolosTests */,
+				3EDAFEDC288482BB00EE78FC /* stolosUITests */,
+				3EDAFEBE288482B200EE78FC /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		3E25C99E285E42D900BEEACF /* Products */ = {
+		3EDAFEBE288482B200EE78FC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3E25C99D285E42D900BEEACF /* stolos.app */,
-				3E25C9AE285E42E400BEEACF /* stolosTests.xctest */,
-				3E25C9B9285E42E400BEEACF /* stolosUITests.xctest */,
+				3EDAFEBD288482B200EE78FC /* stolos.app */,
+				3EDAFECE288482BB00EE78FC /* stolosTests.xctest */,
+				3EDAFED9288482BB00EE78FC /* stolosUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3E25C99F285E42D900BEEACF /* stolos */ = {
+		3EDAFEBF288482B200EE78FC /* stolos */ = {
 			isa = PBXGroup;
 			children = (
-				3E25C9A0285E42D900BEEACF /* stolosApp.swift */,
-				3E25C9A2285E42D900BEEACF /* ContentView.swift */,
-				3E25C9A4285E42E300BEEACF /* Assets.xcassets */,
-				3E25C9A9285E42E300BEEACF /* Info.plist */,
-				3E25C9A6285E42E300BEEACF /* Preview Content */,
-				3E25C9CE285E466400BEEACF /* MapView.swift */,
+				3EDAFEF32884830100EE78FC /* MapViewModel.swift */,
+				3EDAFEEE288482F900EE78FC /* MapView.swift */,
+				3EDAFEC0288482B200EE78FC /* stolosApp.swift */,
+				3EDAFEC2288482B200EE78FC /* ContentView.swift */,
+				3EDAFEC4288482BB00EE78FC /* Assets.xcassets */,
+				3EDAFEC9288482BB00EE78FC /* Info.plist */,
+				3EDAFEC6288482BB00EE78FC /* Preview Content */,
 			);
 			path = stolos;
 			sourceTree = "<group>";
 		};
-		3E25C9A6285E42E300BEEACF /* Preview Content */ = {
+		3EDAFEC6288482BB00EE78FC /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				3E25C9A7285E42E300BEEACF /* Preview Assets.xcassets */,
+				3EDAFEC7288482BB00EE78FC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		3E25C9B1285E42E400BEEACF /* stolosTests */ = {
+		3EDAFED1288482BB00EE78FC /* stolosTests */ = {
 			isa = PBXGroup;
 			children = (
-				3E25C9B2285E42E400BEEACF /* stolosTests.swift */,
-				3E25C9B4285E42E400BEEACF /* Info.plist */,
+				3EDAFED2288482BB00EE78FC /* stolosTests.swift */,
+				3EDAFED4288482BB00EE78FC /* Info.plist */,
 			);
 			path = stolosTests;
 			sourceTree = "<group>";
 		};
-		3E25C9BC285E42E400BEEACF /* stolosUITests */ = {
+		3EDAFEDC288482BB00EE78FC /* stolosUITests */ = {
 			isa = PBXGroup;
 			children = (
-				3E25C9BD285E42E400BEEACF /* stolosUITests.swift */,
-				3E25C9BF285E42E400BEEACF /* Info.plist */,
+				3EDAFEDD288482BB00EE78FC /* stolosUITests.swift */,
+				3EDAFEDF288482BB00EE78FC /* Info.plist */,
 			);
 			path = stolosUITests;
 			sourceTree = "<group>";
@@ -136,13 +139,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3E25C99C285E42D900BEEACF /* stolos */ = {
+		3EDAFEBC288482B200EE78FC /* stolos */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3E25C9C2285E42E400BEEACF /* Build configuration list for PBXNativeTarget "stolos" */;
+			buildConfigurationList = 3EDAFEE2288482BB00EE78FC /* Build configuration list for PBXNativeTarget "stolos" */;
 			buildPhases = (
-				3E25C999285E42D900BEEACF /* Sources */,
-				3E25C99A285E42D900BEEACF /* Frameworks */,
-				3E25C99B285E42D900BEEACF /* Resources */,
+				3EDAFEB9288482B200EE78FC /* Sources */,
+				3EDAFEBA288482B200EE78FC /* Frameworks */,
+				3EDAFEBB288482B200EE78FC /* Resources */,
 			);
 			buildRules = (
 			);
@@ -150,68 +153,68 @@
 			);
 			name = stolos;
 			productName = stolos;
-			productReference = 3E25C99D285E42D900BEEACF /* stolos.app */;
+			productReference = 3EDAFEBD288482B200EE78FC /* stolos.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3E25C9AD285E42E400BEEACF /* stolosTests */ = {
+		3EDAFECD288482BB00EE78FC /* stolosTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3E25C9C5285E42E400BEEACF /* Build configuration list for PBXNativeTarget "stolosTests" */;
+			buildConfigurationList = 3EDAFEE5288482BB00EE78FC /* Build configuration list for PBXNativeTarget "stolosTests" */;
 			buildPhases = (
-				3E25C9AA285E42E400BEEACF /* Sources */,
-				3E25C9AB285E42E400BEEACF /* Frameworks */,
-				3E25C9AC285E42E400BEEACF /* Resources */,
+				3EDAFECA288482BB00EE78FC /* Sources */,
+				3EDAFECB288482BB00EE78FC /* Frameworks */,
+				3EDAFECC288482BB00EE78FC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3E25C9B0285E42E400BEEACF /* PBXTargetDependency */,
+				3EDAFED0288482BB00EE78FC /* PBXTargetDependency */,
 			);
 			name = stolosTests;
 			productName = stolosTests;
-			productReference = 3E25C9AE285E42E400BEEACF /* stolosTests.xctest */;
+			productReference = 3EDAFECE288482BB00EE78FC /* stolosTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		3E25C9B8285E42E400BEEACF /* stolosUITests */ = {
+		3EDAFED8288482BB00EE78FC /* stolosUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3E25C9C8285E42E400BEEACF /* Build configuration list for PBXNativeTarget "stolosUITests" */;
+			buildConfigurationList = 3EDAFEE8288482BB00EE78FC /* Build configuration list for PBXNativeTarget "stolosUITests" */;
 			buildPhases = (
-				3E25C9B5285E42E400BEEACF /* Sources */,
-				3E25C9B6285E42E400BEEACF /* Frameworks */,
-				3E25C9B7285E42E400BEEACF /* Resources */,
+				3EDAFED5288482BB00EE78FC /* Sources */,
+				3EDAFED6288482BB00EE78FC /* Frameworks */,
+				3EDAFED7288482BB00EE78FC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3E25C9BB285E42E400BEEACF /* PBXTargetDependency */,
+				3EDAFEDB288482BB00EE78FC /* PBXTargetDependency */,
 			);
 			name = stolosUITests;
 			productName = stolosUITests;
-			productReference = 3E25C9B9285E42E400BEEACF /* stolosUITests.xctest */;
+			productReference = 3EDAFED9288482BB00EE78FC /* stolosUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3E25C995285E42D800BEEACF /* Project object */ = {
+		3EDAFEB5288482B200EE78FC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					3E25C99C285E42D900BEEACF = {
+					3EDAFEBC288482B200EE78FC = {
 						CreatedOnToolsVersion = 12.4;
 					};
-					3E25C9AD285E42E400BEEACF = {
+					3EDAFECD288482BB00EE78FC = {
 						CreatedOnToolsVersion = 12.4;
-						TestTargetID = 3E25C99C285E42D900BEEACF;
+						TestTargetID = 3EDAFEBC288482B200EE78FC;
 					};
-					3E25C9B8285E42E400BEEACF = {
+					3EDAFED8288482BB00EE78FC = {
 						CreatedOnToolsVersion = 12.4;
-						TestTargetID = 3E25C99C285E42D900BEEACF;
+						TestTargetID = 3EDAFEBC288482B200EE78FC;
 					};
 				};
 			};
-			buildConfigurationList = 3E25C998285E42D800BEEACF /* Build configuration list for PBXProject "stolos" */;
+			buildConfigurationList = 3EDAFEB8288482B200EE78FC /* Build configuration list for PBXProject "stolos" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,36 +222,36 @@
 				en,
 				Base,
 			);
-			mainGroup = 3E25C994285E42D800BEEACF;
-			productRefGroup = 3E25C99E285E42D900BEEACF /* Products */;
+			mainGroup = 3EDAFEB4288482B200EE78FC;
+			productRefGroup = 3EDAFEBE288482B200EE78FC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3E25C99C285E42D900BEEACF /* stolos */,
-				3E25C9AD285E42E400BEEACF /* stolosTests */,
-				3E25C9B8285E42E400BEEACF /* stolosUITests */,
+				3EDAFEBC288482B200EE78FC /* stolos */,
+				3EDAFECD288482BB00EE78FC /* stolosTests */,
+				3EDAFED8288482BB00EE78FC /* stolosUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3E25C99B285E42D900BEEACF /* Resources */ = {
+		3EDAFEBB288482B200EE78FC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E25C9A8285E42E300BEEACF /* Preview Assets.xcassets in Resources */,
-				3E25C9A5285E42E300BEEACF /* Assets.xcassets in Resources */,
+				3EDAFEC8288482BB00EE78FC /* Preview Assets.xcassets in Resources */,
+				3EDAFEC5288482BB00EE78FC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3E25C9AC285E42E400BEEACF /* Resources */ = {
+		3EDAFECC288482BB00EE78FC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3E25C9B7285E42E400BEEACF /* Resources */ = {
+		3EDAFED7288482BB00EE78FC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -258,49 +261,50 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3E25C999285E42D900BEEACF /* Sources */ = {
+		3EDAFEB9288482B200EE78FC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E25C9A3285E42D900BEEACF /* ContentView.swift in Sources */,
-				3E25C9CF285E466400BEEACF /* MapView.swift in Sources */,
-				3E25C9A1285E42D900BEEACF /* stolosApp.swift in Sources */,
+				3EDAFEC3288482B200EE78FC /* ContentView.swift in Sources */,
+				3EDAFEEF288482F900EE78FC /* MapView.swift in Sources */,
+				3EDAFEC1288482B200EE78FC /* stolosApp.swift in Sources */,
+				3EDAFEF42884830100EE78FC /* MapViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3E25C9AA285E42E400BEEACF /* Sources */ = {
+		3EDAFECA288482BB00EE78FC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E25C9B3285E42E400BEEACF /* stolosTests.swift in Sources */,
+				3EDAFED3288482BB00EE78FC /* stolosTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3E25C9B5285E42E400BEEACF /* Sources */ = {
+		3EDAFED5288482BB00EE78FC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E25C9BE285E42E400BEEACF /* stolosUITests.swift in Sources */,
+				3EDAFEDE288482BB00EE78FC /* stolosUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3E25C9B0285E42E400BEEACF /* PBXTargetDependency */ = {
+		3EDAFED0288482BB00EE78FC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3E25C99C285E42D900BEEACF /* stolos */;
-			targetProxy = 3E25C9AF285E42E400BEEACF /* PBXContainerItemProxy */;
+			target = 3EDAFEBC288482B200EE78FC /* stolos */;
+			targetProxy = 3EDAFECF288482BB00EE78FC /* PBXContainerItemProxy */;
 		};
-		3E25C9BB285E42E400BEEACF /* PBXTargetDependency */ = {
+		3EDAFEDB288482BB00EE78FC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3E25C99C285E42D900BEEACF /* stolos */;
-			targetProxy = 3E25C9BA285E42E400BEEACF /* PBXContainerItemProxy */;
+			target = 3EDAFEBC288482B200EE78FC /* stolos */;
+			targetProxy = 3EDAFEDA288482BB00EE78FC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		3E25C9C0285E42E400BEEACF /* Debug */ = {
+		3EDAFEE0288482BB00EE78FC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -361,7 +365,7 @@
 			};
 			name = Debug;
 		};
-		3E25C9C1285E42E400BEEACF /* Release */ = {
+		3EDAFEE1288482BB00EE78FC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -416,13 +420,14 @@
 			};
 			name = Release;
 		};
-		3E25C9C3285E42E400BEEACF /* Debug */ = {
+		3EDAFEE3288482BB00EE78FC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"stolos/Preview Content\"";
+				DEVELOPMENT_TEAM = 4DB3P6TUVQ;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = stolos/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -437,13 +442,14 @@
 			};
 			name = Debug;
 		};
-		3E25C9C4285E42E400BEEACF /* Release */ = {
+		3EDAFEE4288482BB00EE78FC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"stolos/Preview Content\"";
+				DEVELOPMENT_TEAM = 4DB3P6TUVQ;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = stolos/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -458,12 +464,13 @@
 			};
 			name = Release;
 		};
-		3E25C9C6285E42E400BEEACF /* Debug */ = {
+		3EDAFEE6288482BB00EE78FC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4DB3P6TUVQ;
 				INFOPLIST_FILE = stolosTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -479,12 +486,13 @@
 			};
 			name = Debug;
 		};
-		3E25C9C7285E42E400BEEACF /* Release */ = {
+		3EDAFEE7288482BB00EE78FC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4DB3P6TUVQ;
 				INFOPLIST_FILE = stolosTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -500,11 +508,12 @@
 			};
 			name = Release;
 		};
-		3E25C9C9285E42E400BEEACF /* Debug */ = {
+		3EDAFEE9288482BB00EE78FC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4DB3P6TUVQ;
 				INFOPLIST_FILE = stolosUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -519,11 +528,12 @@
 			};
 			name = Debug;
 		};
-		3E25C9CA285E42E400BEEACF /* Release */ = {
+		3EDAFEEA288482BB00EE78FC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4DB3P6TUVQ;
 				INFOPLIST_FILE = stolosUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -541,43 +551,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3E25C998285E42D800BEEACF /* Build configuration list for PBXProject "stolos" */ = {
+		3EDAFEB8288482B200EE78FC /* Build configuration list for PBXProject "stolos" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3E25C9C0285E42E400BEEACF /* Debug */,
-				3E25C9C1285E42E400BEEACF /* Release */,
+				3EDAFEE0288482BB00EE78FC /* Debug */,
+				3EDAFEE1288482BB00EE78FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3E25C9C2285E42E400BEEACF /* Build configuration list for PBXNativeTarget "stolos" */ = {
+		3EDAFEE2288482BB00EE78FC /* Build configuration list for PBXNativeTarget "stolos" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3E25C9C3285E42E400BEEACF /* Debug */,
-				3E25C9C4285E42E400BEEACF /* Release */,
+				3EDAFEE3288482BB00EE78FC /* Debug */,
+				3EDAFEE4288482BB00EE78FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3E25C9C5285E42E400BEEACF /* Build configuration list for PBXNativeTarget "stolosTests" */ = {
+		3EDAFEE5288482BB00EE78FC /* Build configuration list for PBXNativeTarget "stolosTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3E25C9C6285E42E400BEEACF /* Debug */,
-				3E25C9C7285E42E400BEEACF /* Release */,
+				3EDAFEE6288482BB00EE78FC /* Debug */,
+				3EDAFEE7288482BB00EE78FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3E25C9C8285E42E400BEEACF /* Build configuration list for PBXNativeTarget "stolosUITests" */ = {
+		3EDAFEE8288482BB00EE78FC /* Build configuration list for PBXNativeTarget "stolosUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3E25C9C9285E42E400BEEACF /* Debug */,
-				3E25C9CA285E42E400BEEACF /* Release */,
+				3EDAFEE9288482BB00EE78FC /* Debug */,
+				3EDAFEEA288482BB00EE78FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 3E25C995285E42D800BEEACF /* Project object */;
+	rootObject = 3EDAFEB5288482B200EE78FC /* Project object */;
 }
